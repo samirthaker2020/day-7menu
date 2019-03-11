@@ -18,6 +18,9 @@
 		9B47A46B22371C4200276DAD /*  home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46A22371C4200276DAD /*  home.png */; };
 		9B47A46D22371E6E00276DAD /* download-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46C22371E6E00276DAD /* download-1.png */; };
 		9B47A46F22371E7600276DAD /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46E22371E7500276DAD /* download.png */; };
+		9B47A4712237208200276DAD /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47A4702237208200276DAD /* StudentInfoViewController.swift */; };
+		9B47A474223722F700276DAD /* studentdetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47A473223722F700276DAD /* studentdetailsTableViewCell.swift */; };
+		9B47A477223723CA00276DAD /* Studmodal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47A476223723CA00276DAD /* Studmodal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		9B47A46A22371C4200276DAD /*  home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " home.png"; sourceTree = "<group>"; };
 		9B47A46C22371E6E00276DAD /* download-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-1.png"; sourceTree = "<group>"; };
 		9B47A46E22371E7500276DAD /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		9B47A4702237208200276DAD /* StudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		9B47A473223722F700276DAD /* studentdetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentdetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9B47A476223723CA00276DAD /* Studmodal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studmodal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 		9B47A4392237146900276DAD /* day-7menu */ = {
 			isa = PBXGroup;
 			children = (
+				9B47A475223723AF00276DAD /* modal */,
+				9B47A472223722DC00276DAD /* custome cell */,
 				9B47A43A2237146900276DAD /* AppDelegate.swift */,
 				9B47A43C2237146900276DAD /* MenuViewController.swift */,
 				9B47A43E2237146900276DAD /* Main.storyboard */,
@@ -115,6 +123,7 @@
 				9B47A46822371B8200276DAD /* p1.png */,
 				9B47A4432237146A00276DAD /* LaunchScreen.storyboard */,
 				9B47A4462237146A00276DAD /* Info.plist */,
+				9B47A4702237208200276DAD /* StudentInfoViewController.swift */,
 			);
 			path = "day-7menu";
 			sourceTree = "<group>";
@@ -135,6 +144,22 @@
 				9B47A45C2237146A00276DAD /* Info.plist */,
 			);
 			path = "day-7menuUITests";
+			sourceTree = "<group>";
+		};
+		9B47A472223722DC00276DAD /* custome cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B47A473223722F700276DAD /* studentdetailsTableViewCell.swift */,
+			);
+			path = "custome cell";
+			sourceTree = "<group>";
+		};
+		9B47A475223723AF00276DAD /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				9B47A476223723CA00276DAD /* Studmodal.swift */,
+			);
+			path = modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B47A474223722F700276DAD /* studentdetailsTableViewCell.swift in Sources */,
+				9B47A477223723CA00276DAD /* Studmodal.swift in Sources */,
 				9B47A43D2237146900276DAD /* MenuViewController.swift in Sources */,
+				9B47A4712237208200276DAD /* StudentInfoViewController.swift in Sources */,
 				9B47A43B2237146900276DAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
