@@ -15,6 +15,22 @@ class MenuViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       if(indexPath.section==0)
+       {
+        switch indexPath.row {
+            
+        case 0:
+            print("Home")
+        case 1:
+            print("products")
+        case 2:
+            print("order")
+        default:
+             print("default")
+        }
+        }
+    }
 }
 
