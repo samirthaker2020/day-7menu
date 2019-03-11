@@ -14,6 +14,10 @@
 		9B47A4452237146A00276DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A4432237146A00276DAD /* LaunchScreen.storyboard */; };
 		9B47A4502237146A00276DAD /* day_7menuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47A44F2237146A00276DAD /* day_7menuTests.swift */; };
 		9B47A45B2237146A00276DAD /* day_7menuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47A45A2237146A00276DAD /* day_7menuUITests.swift */; };
+		9B47A46922371B8200276DAD /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46822371B8200276DAD /* p1.png */; };
+		9B47A46B22371C4200276DAD /*  home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46A22371C4200276DAD /*  home.png */; };
+		9B47A46D22371E6E00276DAD /* download-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46C22371E6E00276DAD /* download-1.png */; };
+		9B47A46F22371E7600276DAD /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47A46E22371E7500276DAD /* download.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9B47A4562237146A00276DAD /* day-7menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day-7menuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B47A45A2237146A00276DAD /* day_7menuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_7menuUITests.swift; sourceTree = "<group>"; };
 		9B47A45C2237146A00276DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B47A46822371B8200276DAD /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		9B47A46A22371C4200276DAD /*  home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " home.png"; sourceTree = "<group>"; };
+		9B47A46C22371E6E00276DAD /* download-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-1.png"; sourceTree = "<group>"; };
+		9B47A46E22371E7500276DAD /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				9B47A43C2237146900276DAD /* MenuViewController.swift */,
 				9B47A43E2237146900276DAD /* Main.storyboard */,
 				9B47A4412237146A00276DAD /* Assets.xcassets */,
+				9B47A46E22371E7500276DAD /* download.png */,
+				9B47A46C22371E6E00276DAD /* download-1.png */,
+				9B47A46A22371C4200276DAD /*  home.png */,
+				9B47A46822371B8200276DAD /* p1.png */,
 				9B47A4432237146A00276DAD /* LaunchScreen.storyboard */,
 				9B47A4462237146A00276DAD /* Info.plist */,
 			);
@@ -231,7 +243,11 @@
 			files = (
 				9B47A4452237146A00276DAD /* LaunchScreen.storyboard in Resources */,
 				9B47A4422237146A00276DAD /* Assets.xcassets in Resources */,
+				9B47A46B22371C4200276DAD /*  home.png in Resources */,
+				9B47A46922371B8200276DAD /* p1.png in Resources */,
 				9B47A4402237146900276DAD /* Main.storyboard in Resources */,
+				9B47A46F22371E7600276DAD /* download.png in Resources */,
+				9B47A46D22371E6E00276DAD /* download-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

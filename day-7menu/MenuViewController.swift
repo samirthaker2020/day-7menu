@@ -17,12 +17,14 @@ class MenuViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       if(indexPath.section==0)
+      let cell=tableView.dequeueReusableCell(with)
+        if(indexPath.section==0)
        {
         switch indexPath.row {
             
         case 0:
             print("Home")
+            cell?.imageView?.image=UIImage(named: "home")
         case 1:
             print("products")
         case 2:
@@ -31,6 +33,21 @@ class MenuViewController: UITableViewController {
              print("default")
         }
         }
+         if (indexPath.section==1)
+        {
+            switch indexPath.row {
+                
+            case 0:
+                print("Help")
+            case 1:
+                print("About us")
+            case 2:
+                print("contact us")
+            default:
+                print("Logout")
+            }
+        }
+        
     }
 }
 
